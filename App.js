@@ -31,13 +31,13 @@ export default class ColorButton extends Component {
         <View style={styles.container}>
           <TouchableOpacity 
               style={styles.red}
-              onPress={()=> this.onPress('Зеленый', 'red')}/>        
+              onPress={()=> this.onPress('Красный', 'red')}/>        
           <TouchableOpacity 
               style={styles.yellow}
-              onPress={()=> this.onPress('Красный', 'yellow')} />
+              onPress={()=> this.onPress('Желтый', 'yellow')} />
           <TouchableOpacity 
               style={styles.green}
-              onPress={()=> this.onPress('Желтый', 'green')} />
+              onPress={()=> this.onPress('Зеленый', 'green')} />
         </View>
         </View>
       );
